@@ -1,20 +1,20 @@
 {
   "current": {
-    "color_primary": "#aaf1f5",
-    "color_header_text": "#aaf1f5",
-    "color_primary_heading_text": "#ffffff",
-    "color_primary_body_text": "#a9a9a9",
-    "color_footer_text": "#000000",
-    "color_button_text": "#000000",
-    "color_header_bg": "#191c1b",
-    "color_footer_bg": "#aaf1f5",
-    "color_main_bg": "#000000",
-    "color_secondary_bg": "#191c1b",
-    "color_product_cards": "#191c1b",
+    "color_primary": "#36d6e7",
+    "color_header_text": "#201a1e",
+    "color_primary_heading_text": "#201a1e",
+    "color_primary_body_text": "#464f4e",
+    "color_footer_text": "#5d6c89",
+    "color_button_text": "#fbf6f3",
+    "color_header_bg": "#ffffff",
+    "color_footer_bg": "#fbf6f3",
+    "color_main_bg": "#ffffff",
+    "color_secondary_bg": "#e2e6e7",
+    "color_product_cards": "#fafafa",
     "color_form_elements": "#292c2b",
     "color_cart_flag": "#ffffff",
     "type_base_size": "62.5%",
-    "type_header_font": "titillium_web_n7",
+    "type_header_font": "futura_n3",
     "type_base_font": "lato_n4",
     "show_cart_drawer": true,
     "show_cart_note": false,
@@ -53,7 +53,7 @@
           "1486663529263": {
             "type": "video",
             "settings": {
-              "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+              "video_url": "",
               "image": "",
               "title": "Slideshow video",
               "button": "Slide title",
@@ -80,9 +80,9 @@
           "icon": "cart",
           "logo": "",
           "logo_max_height": 15,
-          "enable_transparent": true,
+          "enable_transparent": false,
           "transparent_logo": "",
-          "transparent_text_color": "#aaf1f5",
+          "transparent_text_color": "#191c1b",
           "primary_navigation": "main-menu",
           "secondary_navigation": "footer",
           "show_social_icons": true,
@@ -121,7 +121,7 @@
         "type": "feature-row",
         "settings": {
           "size": "large",
-          "background_color": "#191c1b",
+          "background_color": "#fbf6f3",
           "image": "",
           "image_crop": "circle",
           "alignment": "center center",
@@ -239,6 +239,7 @@
       },
       "1486664864970": {
         "type": "hero",
+        "disabled": true,
         "settings": {
           "hero_size": "large",
           "image": "",
@@ -249,16 +250,16 @@
           "use_second_button": false,
           "button_label": "",
           "button_link": "",
-          "show_overlay": true,
+          "show_overlay": false,
           "overlay_color": "#00b490",
-          "overlay_text": "#ffffff",
+          "overlay_text": "#191c1b",
           "overlay_opacity": "0"
         }
       },
       "1486665151632": {
         "type": "highlight",
         "settings": {
-          "border_color": "#00b490",
+          "border_color": "#feb06a",
           "content_alignment": "middle",
           "image": "",
           "image_position": "back",
@@ -334,7 +335,7 @@
           "use_second_button": true,
           "button_label": "about us",
           "button_link": "",
-          "show_overlay": true,
+          "show_overlay": false,
           "overlay_color": "#000000",
           "overlay_text": "#ffffff",
           "overlay_opacity": "0.5"
@@ -386,6 +387,7 @@
       },
       "1492804742195": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "1492804742195-0": {
             "type": "text",
@@ -408,7 +410,7 @@
         "settings": {
           "heading_text": "",
           "heading_color": "#3a3a3a",
-          "background_color": "#00b490",
+          "background_color": "#fafafa",
           "top_margin": true,
           "bottom_margin": true
         }
