@@ -1,0 +1,67 @@
+<div class="grid">
+  {% for block in section.blocks %}
+    <div class="grid__item">
+    {% case block.type %}
+      {% when 'first-section' %}
+      {% include 'snippet_first-section' %}
+      {% when 'second-section' %}
+      {% include 'snippet_second-section' %}
+      {% when 'third-section' %}
+      {% include 'snippet_third-section' %}
+      {% when 'fourth-section' %}
+      {% include 'snippet_four-section' %}
+    {% endcase %}
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "blocks": [
+      {
+        "type": "first-section",
+        "name": "First Section",
+        "settings": [
+            {
+            "id": "textFirst",
+            "type": "text",
+            "label": "Add text"
+          }
+        ]
+      },
+      {
+        "type": "second-section",
+        "name": "Second Section",
+        "settings": [
+            {
+            "id": "textSecond",
+            "type": "text",
+            "label": "Add text"
+          }
+        ]
+      },
+      {
+        "type": "third-section",
+        "name": "Third Section",
+        "settings": [
+          {
+            "id": "textThird",
+            "type": "text",
+            "label": "Add text"
+          }
+        ]
+      },
+      { 
+        "type": "fourth-section",
+        "name": "Fourth Section", 
+        "settings": [ 
+          {
+            "id": "textFourth",
+            "type": "text",
+            "label": "Add text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
