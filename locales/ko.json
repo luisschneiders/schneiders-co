@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "메뉴",
-      "view_cart": "카트 보기"
+      "view_cart": "카트 보기",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} 메뉴"

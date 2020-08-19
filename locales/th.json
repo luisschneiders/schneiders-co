@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "เมนู",
-      "view_cart": "ดูตะกร้าสินค้า"
+      "view_cart": "ดูตะกร้าสินค้า",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "เมนู{{ link_title }}"

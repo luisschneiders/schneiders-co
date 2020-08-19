@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "選單",
-      "view_cart": "檢視購物車"
+      "view_cart": "檢視購物車",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} 選單"

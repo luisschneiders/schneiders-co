@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Menu",
-      "view_cart": "Lihat keranjang"
+      "view_cart": "Lihat keranjang",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Menu {{ link_title }}"

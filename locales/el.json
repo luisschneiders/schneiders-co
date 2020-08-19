@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Μενού",
-      "view_cart": "Προβολή καλαθιού"
+      "view_cart": "Προβολή καλαθιού",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Μενού {{ link_title }}"

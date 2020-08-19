@@ -64,7 +64,8 @@
     },
     "header": {
       "menu": "Nabídka",
-      "view_cart": "Zobrazit košík"
+      "view_cart": "Zobrazit košík",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Nabídka {{ link_title }}"

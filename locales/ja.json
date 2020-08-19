@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "メニュー",
-      "view_cart": "カートを見る"
+      "view_cart": "カートを見る",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "メニュー{{ link_title }}"

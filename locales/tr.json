@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Menü",
-      "view_cart": "Sepeti görüntüle"
+      "view_cart": "Sepeti görüntüle",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} menüsü"

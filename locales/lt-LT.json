@@ -64,7 +64,8 @@
     },
     "header": {
       "menu": "Meniu",
-      "view_cart": "Žr. krepšelį"
+      "view_cart": "Žr. krepšelį",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "„{{ link_title }}“ meniu"

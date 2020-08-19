@@ -64,7 +64,8 @@
     },
     "header": {
       "menu": "Meni",
-      "view_cart": "Prikaži košarico"
+      "view_cart": "Prikaži košarico",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Meni {{ link_title }}"

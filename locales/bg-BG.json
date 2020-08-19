@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Меню",
-      "view_cart": "Покажи количката"
+      "view_cart": "Покажи количката",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Меню {{ link_title }}"

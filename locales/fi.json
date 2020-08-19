@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Valikko",
-      "view_cart": "Katso ostoskori"
+      "view_cart": "Katso ostoskori",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} -valikko"

@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Menu",
-      "view_cart": "Winkelwagen bekijken"
+      "view_cart": "Winkelwagen bekijken",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} menu"

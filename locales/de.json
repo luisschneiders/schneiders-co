@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Menü",
-      "view_cart": "Warenkorb einsehen"
+      "view_cart": "Warenkorb einsehen",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Menü {{ link_title }}"

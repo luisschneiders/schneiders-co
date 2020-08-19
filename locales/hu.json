@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Menü",
-      "view_cart": "Kosár megtekintése"
+      "view_cart": "Kosár megtekintése",
+      "global": "Globe"
     },
     "payment": {
       "method": "Fizetési ikonok"

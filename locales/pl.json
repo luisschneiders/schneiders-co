@@ -64,7 +64,8 @@
     },
     "header": {
       "menu": "Menu",
-      "view_cart": "Zobacz koszyk"
+      "view_cart": "Zobacz koszyk",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Menu {{ link_title }}"

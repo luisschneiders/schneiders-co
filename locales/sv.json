@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Meny",
-      "view_cart": "Visa varukorg"
+      "view_cart": "Visa varukorg",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} meny"

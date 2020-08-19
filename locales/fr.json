@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Menu",
-      "view_cart": "Voir le panier"
+      "view_cart": "Voir le panier",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Menu {{ link_title }}"

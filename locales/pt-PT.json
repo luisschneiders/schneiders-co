@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Menu",
-      "view_cart": "Ver carrinho"
+      "view_cart": "Ver carrinho",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Menu {{ link_title }}"

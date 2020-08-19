@@ -63,7 +63,8 @@
     },
     "header": {
       "menu": "Meniu",
-      "view_cart": "Vezi coșul"
+      "view_cart": "Vezi coșul",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Meniul {{ link_title }}"

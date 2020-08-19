@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "Meny",
-      "view_cart": "Vis handlekurv"
+      "view_cart": "Vis handlekurv",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} meny"

@@ -62,7 +62,8 @@
     },
     "header": {
       "menu": "मेनू",
-      "view_cart": "कार्ट देखें"
+      "view_cart": "कार्ट देखें",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "{{ link_title }} मेनू"

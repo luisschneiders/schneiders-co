@@ -63,7 +63,8 @@
     },
     "header": {
       "menu": "Izbornik",
-      "view_cart": "Prikaži košaricu"
+      "view_cart": "Prikaži košaricu",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Izbornik {{ link_title }}"

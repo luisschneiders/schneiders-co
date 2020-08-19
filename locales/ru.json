@@ -64,7 +64,8 @@
     },
     "header": {
       "menu": "Меню",
-      "view_cart": "Просмотреть корзину"
+      "view_cart": "Просмотреть корзину",
+      "global": "Globe"
     },
     "navigation": {
       "toggle_sublinks": "Меню \"{{ link_title }}\""
