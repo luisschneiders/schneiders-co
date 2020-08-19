@@ -5308,9 +5308,6 @@ $image-bar-placeholder-border-color: rgba($color-body-text, 0.25);
   margin: 0 auto;
   overflow: hidden;
 
-  @include media-query($large-up) {
-    margin-top: $gutter * 4;
-  }
 }
 
 .product__media-wrapper {
@@ -5353,6 +5350,18 @@ $image-bar-placeholder-border-color: rgba($color-body-text, 0.25);
   @include media-query($medium-up) {
     padding: 90px 0;
   }
+}
+
+.product__content-header--custom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.product__content-header-item--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product__title {
