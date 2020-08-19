@@ -6653,6 +6653,10 @@ $site-header-wrapper-color: rgba($color-header, 0);
   padding: ($gutter / 2) 0;
   text-align: center;
   line-height: 1.2;
+
+  @include media-query($small) {
+    font-size: 1.5rem;
+  }
 }
 
 .site-header__logo {
@@ -6712,7 +6716,7 @@ $site-header-wrapper-color: rgba($color-header, 0);
 
 .site-header__globe {
   svg {
-    width: 22px;
+    width: 32px;
     height: 40px;
     margin: -2px 0 0 -2px;
 
