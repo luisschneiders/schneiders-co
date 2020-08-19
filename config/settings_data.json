@@ -55,7 +55,7 @@
             "settings": {
               "video_url": "",
               "image": "shopify:\/\/shop_images\/red-and-green-farm-behind-crop-field.jpg",
-              "title": "Fresh produce for Australians",
+              "title": "Fresh produce from Australia",
               "button": "Slide title",
               "cta": "Our range",
               "cta_link": "shopify:\/\/collections"
@@ -71,7 +71,7 @@
           "show_overlay": true,
           "overlay_color": "#000000",
           "overlay_text": "#ffffff",
-          "overlay_opacity": 20
+          "overlay_opacity": 35
         }
       },
       "header": {
