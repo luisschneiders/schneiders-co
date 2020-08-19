@@ -5,6 +5,7 @@
     }
 
     html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .site-header__cart .icon,
+    html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .site-header__globe .icon,
     html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .site-header__bag .icon {
       fill: {{ section.settings.transparent_text_color }};
     }
@@ -14,6 +15,7 @@
     }
 
     html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .site-header__navigation::after,
+    html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .site-header__globe::after,
     html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .site-header__cart::after {
       border-color: {{ section.settings.transparent_text_color }};
     }
@@ -214,6 +216,15 @@
           </div>
         {% endif %}
       </div>
+      {% if section.settings.global_link != blank %}
+        <div class="site-header__section site-header__section--button">
+          <a href="{{ section.settings.global_link }}" class="btn btn--clear btn--square btn--hover-scale site-header__globe" aria-expanded="false">
+            {%- assign icon = 'icon-' | append: section.settings.global %}
+            {% include icon %}
+            <span class="icon__fallback-text">{{ 'general.header.global' | t }}</span>
+          </a>
+        </div>
+      {% endif %}
       <div class="site-header__section site-header__section--button">
         <a href="{{ routes.cart_url }}" class="btn btn--clear btn--square btn--hover-scale site-header__cart ajax-cart__toggle" aria-expanded="false">
           {%- assign icon = 'icon-header-' | append: section.settings.icon %}
@@ -249,6 +260,80 @@
     "zh-TW": "標頭"
   },
   "settings": [
+    {
+      "type": "select",
+      "id": "global",
+      "label": {
+        "da": "Ikon for indkøbskurv",
+        "de": "Warenkorbsymbol",
+        "en": "Other countries icon",
+        "es": "Icono de carrito de compras",
+        "fi": "Ostoskorikuvake",
+        "fr": "Icône du panier",
+        "hi": "शॉपिंग कार्ट आइकन",
+        "it": "Icona carrello",
+        "ja": "ショッピングカートのアイコン",
+        "ko": "쇼핑 카트 아이콘",
+        "nb": "Handlekurv-ikon",
+        "nl": "Winkelwagenpictogram",
+        "pt-BR": "Ícone do carrinho de compras",
+        "pt-PT": "Ícone do carrinho de compras",
+        "sv": "Varukorgikon",
+        "th": "ไอคอนตะกร้าสินค้า",
+        "zh-CN": "购物车图标",
+        "zh-TW": "購物車圖示"
+      },
+      "default": "globe",
+      "options": [
+        {
+          "label": {
+            "da": "Kurv",
+            "de": "Beutel",
+            "en": "Globe",
+            "es": "Bolso",
+            "fi": "Laukku",
+            "fr": "Sac",
+            "hi": "बैग",
+            "it": "Shopping bag",
+            "ja": "バッグ",
+            "ko": "가방",
+            "nb": "Veske",
+            "nl": "Tas",
+            "pt-BR": "Sacola",
+            "pt-PT": "Saco",
+            "sv": "Väska",
+            "th": "กระเป๋า",
+            "zh-CN": "购物袋",
+            "zh-TW": "袋子"
+          },
+          "value": "globe"
+        }
+      ]
+    },
+    {
+      "type": "url",
+      "id": "global_link",
+      "label": {
+        "da": "Link til meddelelse",
+        "de": "Ankündigungslink",
+        "en": "Global link",
+        "es": "Enlace de anuncio",
+        "fi": "Ilmoituslinkki",
+        "fr": "Lien d'annonce",
+        "hi": "घोषणा लिंक",
+        "it": "Link annuncio",
+        "ja": "告知リンク",
+        "ko": "공지 링크",
+        "nb": "Kunngjøringskobling",
+        "nl": "Aankondigingslink",
+        "pt-BR": "Link de anúncio",
+        "pt-PT": "Ligação do comunicado",
+        "sv": "Meddelandelänk",
+        "th": "ลิงก์ประกาศ",
+        "zh-CN": "公告链接",
+        "zh-TW": "公告連結"
+      }
+    },
     {
       "type": "select",
       "id": "icon",

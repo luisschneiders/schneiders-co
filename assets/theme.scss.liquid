@@ -6710,6 +6710,22 @@ $site-header-wrapper-color: rgba($color-header, 0);
   }
 }
 
+.site-header__globe {
+  svg {
+    width: 22px;
+    height: 40px;
+    margin: -2px 0 0 -2px;
+
+    @include media-query($medium-up) {
+      width: 56px;
+    }
+  }
+
+  &::after {
+    border-color: $color-header-links;
+  }
+}
+
 .site-header__cart-bubble {
   position: absolute;
   top: 15px;
