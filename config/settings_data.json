@@ -77,6 +77,8 @@
       "header": {
         "type": "header",
         "settings": {
+          "global": "globe",
+          "global_link": "shopify:\/\/pages\/export",
           "icon": "cart",
           "logo": "",
           "logo_max_height": 15,
@@ -142,8 +144,8 @@
             "settings": {
               "background_color": "#464f4e",
               "show_image": true,
-              "slide_image": "",
-              "slide_title": "Featured variant",
+              "slide_image": "shopify:\/\/shop_images\/breakfast-sandwich-in-hand.jpg",
+              "slide_title": "Breakfast sandwich in hand",
               "slide_button_text": "View",
               "slide_button_url": ""
             }
@@ -153,8 +155,8 @@
             "settings": {
               "background_color": "#464f4e",
               "show_image": true,
-              "slide_image": "",
-              "slide_title": "Featured variant",
+              "slide_image": "shopify:\/\/shop_images\/toast-eggs-for-breakfast.jpg",
+              "slide_title": "Toast eggs for breakfast",
               "slide_button_text": "View",
               "slide_button_url": ""
             }
@@ -167,27 +169,13 @@
         "settings": {
           "use_second_button": true,
           "text_color": "#ffffff",
-          "cover_image": "",
-          "cover_title": "Showcase some product information",
+          "cover_image": "shopify:\/\/shop_images\/classic-breakfast.jpg",
+          "cover_title": "Check out recipes recommendations",
           "cover_title_desktop_position": "center",
           "show_overlay": true,
           "overlay_color": "#000000",
           "overlay_text": "#ffffff",
           "overlay_opacity": "0.5"
-        }
-      },
-      "featured-collection": {
-        "type": "featured-collection",
-        "settings": {
-          "collection": "",
-          "show_spacing": false,
-          "title": "Featured collection",
-          "show_vendor": false,
-          "show_view_all": true,
-          "use_second_button": false,
-          "grid_style": "collage",
-          "products": 3,
-          "rows": 2
         }
       },
       "1486665151632": {
@@ -256,24 +244,6 @@
           "overlay_color": "#000000",
           "overlay_text": "#ffffff",
           "overlay_opacity": "0.3"
-        }
-      },
-      "1486665735205": {
-        "type": "hero",
-        "settings": {
-          "hero_size": "medium",
-          "image": "",
-          "alignment": "center center",
-          "title": "",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-          "text_size": "large",
-          "use_second_button": true,
-          "button_label": "about us",
-          "button_link": "",
-          "show_overlay": false,
-          "overlay_color": "#000000",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": "0.5"
         }
       },
       "product-template": {
@@ -407,6 +377,25 @@
           "show_spacing": false,
           "show_vendor": true
         }
+      },
+      "1597820429073": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "1597820522359": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Subscribe to our newsletter",
+          "subheading": "<p>Promotions, new fresh products and sales. Directly to your inbox.<\/p>",
+          "success_message": "Thanks for subscribing",
+          "text_color": "#36d6e7",
+          "background_color": "#ffffff"
+        }
       }
     },
     "content_for_index": [
@@ -415,9 +404,9 @@
       "1486665151632",
       "feature-row",
       "1486665657092",
-      "1486665735205",
+      "1597820522359",
       "featured-slider",
-      "featured-collection"
+      "1597820429073"
     ]
   },
   "presets": {
