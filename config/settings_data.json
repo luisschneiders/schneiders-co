@@ -11,10 +11,10 @@
     "color_main_bg": "#ffffff",
     "color_secondary_bg": "#e2e6e7",
     "color_product_cards": "#fafafa",
-    "color_form_elements": "#292c2b",
+    "color_form_elements": "#fafafa",
     "color_cart_flag": "#ffffff",
     "type_base_size": "62.5%",
-    "type_header_font": "futura_n3",
+    "type_header_font": "abril_fatface_n4",
     "type_base_font": "lato_n4",
     "show_cart_drawer": true,
     "show_cart_note": false,
@@ -54,11 +54,11 @@
             "type": "video",
             "settings": {
               "video_url": "",
-              "image": "",
-              "title": "Slideshow video",
+              "image": "shopify:\/\/shop_images\/red-and-green-farm-behind-crop-field.jpg",
+              "title": "Fresh produce for Australians",
               "button": "Slide title",
-              "cta": "View more",
-              "cta_link": ""
+              "cta": "Our range",
+              "cta_link": "shopify:\/\/collections"
             }
           }
         },
@@ -71,7 +71,7 @@
           "show_overlay": true,
           "overlay_color": "#000000",
           "overlay_text": "#ffffff",
-          "overlay_opacity": 60
+          "overlay_opacity": 20
         }
       },
       "header": {
@@ -80,11 +80,11 @@
           "icon": "cart",
           "logo": "",
           "logo_max_height": 15,
-          "enable_transparent": false,
+          "enable_transparent": true,
           "transparent_logo": "",
-          "transparent_text_color": "#191c1b",
+          "transparent_text_color": "#ffffff",
           "primary_navigation": "main-menu",
-          "secondary_navigation": "footer",
+          "secondary_navigation": "main-submenu-header",
           "show_social_icons": true,
           "show_announcement": false,
           "home_page_only": true,
@@ -122,63 +122,16 @@
         "settings": {
           "size": "large",
           "background_color": "#fbf6f3",
-          "image": "",
-          "image_crop": "circle",
+          "image": "shopify:\/\/shop_images\/chicken-in-grass.jpg",
+          "image_crop": "none",
           "alignment": "center center",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "title": "Free range",
+          "text": "<p>We give our chickens the freedom&nbsp;to roam in an outdoor area during the day and are housed safely and securely in sheds at night.<\/p>",
           "use_second_button": false,
           "button_label": "",
           "button_link": "",
-          "desktop_layout": "left",
-          "mobile_layout": "top"
-        }
-      },
-      "gallery": {
-        "type": "gallery",
-        "blocks": {
-          "1486502632685-0": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "icon": "checkmark",
-              "cta_label": "Talk about your brand",
-              "link": ""
-            }
-          },
-          "1486502639654": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "icon": "checkmark",
-              "cta_label": "Talk about your brand",
-              "link": ""
-            }
-          },
-          "1486502643820": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "icon": "checkmark",
-              "cta_label": "Talk about your brand",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1486502632685-0",
-          "1486502639654",
-          "1486502643820"
-        ],
-        "settings": {
-          "section_height": "medium",
-          "show_overlay": true,
-          "overlay_color": "#000000",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": "0.5"
+          "desktop_layout": "right",
+          "mobile_layout": "bottom"
         }
       },
       "featured-slider": {
@@ -237,25 +190,6 @@
           "rows": 2
         }
       },
-      "1486664864970": {
-        "type": "hero",
-        "disabled": true,
-        "settings": {
-          "hero_size": "large",
-          "image": "",
-          "alignment": "top center",
-          "title": "Talk about your brand",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-          "text_size": "medium",
-          "use_second_button": false,
-          "button_label": "",
-          "button_link": "",
-          "show_overlay": false,
-          "overlay_color": "#00b490",
-          "overlay_text": "#191c1b",
-          "overlay_opacity": "0"
-        }
-      },
       "1486665151632": {
         "type": "highlight",
         "settings": {
@@ -274,46 +208,47 @@
         "type": "feature-row",
         "settings": {
           "size": "large",
-          "background_color": "",
-          "image": "",
-          "image_crop": "none",
-          "alignment": "top left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "background_color": "#fbf6f3",
+          "image": "shopify:\/\/shop_images\/a-park-sunset.jpg",
+          "image_crop": "circle",
+          "alignment": "center center",
+          "title": "Family owned",
+          "text": "<p>Uncle Louise Farm is a&nbsp;family business&nbsp;which provides fresh products to Australian families in Victoria.<\/p>",
           "use_second_button": false,
-          "button_label": "",
-          "button_link": "",
-          "desktop_layout": "right",
+          "button_label": "About us",
+          "button_link": "shopify:\/\/pages\/about-us",
+          "desktop_layout": "left",
           "mobile_layout": "bottom"
         }
       },
       "1486665657092": {
         "type": "gallery",
+        "disabled": true,
         "blocks": {
-          "1486665657092-0": {
+          "1597637614313": {
             "type": "image",
             "settings": {
               "image": "",
               "alignment": "center center",
-              "icon": "none",
-              "cta_label": "",
+              "icon": "checkmark",
+              "cta_label": "Talk about your brand",
               "link": ""
             }
           },
-          "1486665657092-1": {
+          "1597637623873": {
             "type": "image",
             "settings": {
               "image": "",
               "alignment": "center center",
-              "icon": "none",
-              "cta_label": "",
+              "icon": "checkmark",
+              "cta_label": "Talk about your brand",
               "link": ""
             }
           }
         },
         "block_order": [
-          "1486665657092-0",
-          "1486665657092-1"
+          "1597637614313",
+          "1597637623873"
         ],
         "settings": {
           "section_height": "medium",
@@ -344,11 +279,11 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "show_quantity_selector": false,
+          "show_quantity_selector": true,
           "show_variant_labels": true,
-          "show_vendor": true,
+          "show_vendor": false,
           "enable_payment_button": true,
-          "show_share_buttons": true,
+          "show_share_buttons": false,
           "enable_video_looping": false,
           "hide_variant_media": true
         }
@@ -385,75 +320,100 @@
           "show_share_buttons": true
         }
       },
-      "1492804742195": {
-        "type": "custom-content",
-        "disabled": true,
+      "multi-section-2": {
+        "type": "multi-section-2",
         "blocks": {
-          "1492804742195-0": {
-            "type": "text",
+          "1597634311372": {
+            "type": "fourth-section",
             "settings": {
-              "heading_text": "",
-              "heading_color": "#3a3a3a",
-              "heading_style": "h3",
-              "paragraph_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-              "paragraph_color": "#4a4a4a",
-              "paragraph_size": "1",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
+              "textFourth": "page 2 -> section 4"
+            }
+          },
+          "1597634323795": {
+            "type": "third-section",
+            "settings": {
+              "textThird": "page 2 -> section 3"
+            }
+          },
+          "1597634329030": {
+            "type": "second-section",
+            "settings": {
+              "textSecond": "page 2 -> section 2"
+            }
+          },
+          "1597634336105": {
+            "type": "first-section",
+            "settings": {
+              "textFirst": "page 2 -> section 1 2\/1"
+            }
+          },
+          "1597634662100": {
+            "type": "first-section",
+            "settings": {
+              "textFirst": "page 2 -> section 1 2\/2"
             }
           }
         },
         "block_order": [
-          "1492804742195-0"
+          "1597634311372",
+          "1597634323795",
+          "1597634329030",
+          "1597634336105",
+          "1597634662100"
         ],
-        "settings": {
-          "heading_text": "",
-          "heading_color": "#3a3a3a",
-          "background_color": "#fafafa",
-          "top_margin": true,
-          "bottom_margin": true
-        }
+        "settings": {}
       },
-      "1492805123317": {
-        "type": "custom-content",
+      "multi-section-1": {
+        "type": "multi-section-1",
         "blocks": {
-          "1492805123317-0": {
-            "type": "text",
+          "1597634219104": {
+            "type": "first-section",
             "settings": {
-              "heading_text": "",
-              "heading_color": "#ffffff",
-              "heading_style": "h3",
-              "paragraph_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-              "paragraph_color": "#4a4a4a",
-              "paragraph_size": "1",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
+              "textFirst": "page 1 -> section 1"
+            }
+          },
+          "1597634242388": {
+            "type": "third-section",
+            "settings": {
+              "textThird": "page 1 -> section 3"
+            }
+          },
+          "1597634237551": {
+            "type": "second-section",
+            "settings": {
+              "textSecond": "page 1 -> section 2"
+            }
+          },
+          "1597634248856": {
+            "type": "fourth-section",
+            "settings": {
+              "textFourth": "page 1 -> section 4"
             }
           }
         },
         "block_order": [
-          "1492805123317-0"
+          "1597634219104",
+          "1597634242388",
+          "1597634237551",
+          "1597634248856"
         ],
+        "settings": {}
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
         "settings": {
-          "heading_text": "",
-          "heading_color": "#3a3a3a",
-          "background_color": "",
-          "top_margin": true,
-          "bottom_margin": false
+          "show_product_recommendations": false,
+          "heading": "You may also like",
+          "show_spacing": false,
+          "show_vendor": true
         }
       }
     },
     "content_for_index": [
       "slideshow",
-      "feature-row",
-      "1492804742195",
-      "1486664864970",
-      "gallery",
-      "1492805123317",
-      "1486665151632",
       "1486665428106",
+      "1486665151632",
+      "feature-row",
       "1486665657092",
       "1486665735205",
       "featured-slider",
