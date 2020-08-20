@@ -1,19 +1,21 @@
 <div class="rich-text rich-text--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="rich-text">
-  <div class="grid page-width">
-    <div class="grid__item text-center{% unless section.settings.full_width %} medium-up--two-thirds medium-up--push-one-sixth{% endunless %}">
-      {% if section.settings.section_title != blank %}
-        <h2 class="rich-text__heading separator
-                   {% if section.settings.text_size == 'large' %} h1{% elsif section.settings.text_size == 'small' %} h3{% endif %}"
-                   data-animate>
-          {{ section.settings.section_title | escape }}
-        </h2>
-      {% endif %}
+  <div class="page-width">
+    <div class="grid">
+      <div class="grid__item text-center{% unless section.settings.full_width %} medium-up--two-thirds medium-up--push-one-sixth{% endunless %}">
+        {% if section.settings.section_title != blank %}
+          <h2 class="rich-text__heading separator
+                    {% if section.settings.text_size == 'large' %} h1{% elsif section.settings.text_size == 'small' %} h3{% endif %}"
+                    data-animate>
+            {{ section.settings.section_title | escape }}
+          </h2>
+        {% endif %}
 
-      {% if section.settings.text != blank %}
-      <div class="rich-text__body-text rich-text__body-text--{{ section.settings.text_size }} rte-setting">
-        {{ section.settings.text }}
+        {% if section.settings.text != blank %}
+        <div class="rich-text__body-text rich-text__body-text--{{ section.settings.text_size }} rte-setting">
+          {{ section.settings.text }}
+        </div>
+        {% endif %}
       </div>
-      {% endif %}
     </div>
   </div>
 </div>
