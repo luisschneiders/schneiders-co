@@ -1,18 +1,18 @@
 {
   "current": {
-    "color_primary": "#36d6e7",
-    "color_header_text": "#201a1e",
-    "color_primary_heading_text": "#201a1e",
+    "color_primary": "#2f7604",
+    "color_header_text": "#2f7604",
+    "color_primary_heading_text": "#523a28",
     "color_primary_body_text": "#464f4e",
-    "color_footer_text": "#5d6c89",
+    "color_footer_text": "#2f7604",
     "color_button_text": "#fbf6f3",
     "color_header_bg": "#ffffff",
-    "color_footer_bg": "#fbf6f3",
+    "color_footer_bg": "#b6d084",
     "color_main_bg": "#ffffff",
     "color_secondary_bg": "#e2e6e7",
     "color_product_cards": "#fafafa",
     "color_form_elements": "#fafafa",
-    "color_cart_flag": "#ffffff",
+    "color_cart_flag": "#b6d084",
     "type_base_size": "62.5%",
     "type_header_font": "abril_fatface_n4",
     "type_base_font": "lato_n4",
@@ -30,7 +30,7 @@
     "social_youtube_link": "",
     "social_vimeo_link": "",
     "favicon": "",
-    "checkout_header_image": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/basket-of-fresh-eggs.jpg",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
@@ -41,8 +41,8 @@
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "Helvetica Neue",
     "checkout_body_font": "Helvetica Neue",
-    "checkout_accent_color": "#1990c6",
-    "checkout_button_color": "#1990c6",
+    "checkout_accent_color": "#2f7604",
+    "checkout_button_color": "#3a5673",
     "checkout_error_color": "#ff6d6d",
     "transparent_logo": "",
     "logo_max_height": 15,
@@ -55,7 +55,7 @@
             "settings": {
               "video_url": "",
               "image": "shopify:\/\/shop_images\/red-and-green-farm-behind-crop-field.jpg",
-              "title": "Fresh produce from Australia",
+              "title": "Premium fresh produce from Australia",
               "button": "Slide title",
               "cta": "Our range",
               "cta_link": "shopify:\/\/collections"
@@ -77,11 +77,11 @@
       "header": {
         "type": "header",
         "settings": {
-          "global": "globe",
-          "global_link": "shopify:\/\/pages\/export",
           "icon": "cart",
           "logo": "",
           "logo_max_height": 15,
+          "global": "globe",
+          "global_link": "shopify:\/\/pages\/exports",
           "enable_transparent": true,
           "transparent_logo": "",
           "transparent_text_color": "#ffffff",
@@ -122,8 +122,8 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "size": "large",
-          "background_color": "#fbf6f3",
+          "size": "medium",
+          "background_color": "#f8ffca",
           "image": "shopify:\/\/shop_images\/chicken-in-grass.jpg",
           "image_crop": "none",
           "alignment": "center center",
@@ -142,7 +142,7 @@
           "1486503036275-0": {
             "type": "slide",
             "settings": {
-              "background_color": "#464f4e",
+              "background_color": "#b6d084",
               "show_image": true,
               "slide_image": "shopify:\/\/shop_images\/breakfast-sandwich-in-hand.jpg",
               "slide_title": "Breakfast sandwich in hand",
@@ -153,7 +153,7 @@
           "1486503036275-1": {
             "type": "slide",
             "settings": {
-              "background_color": "#464f4e",
+              "background_color": "#ffcb32",
               "show_image": true,
               "slide_image": "shopify:\/\/shop_images\/toast-eggs-for-breakfast.jpg",
               "slide_title": "Toast eggs for breakfast",
@@ -181,69 +181,32 @@
       "1486665151632": {
         "type": "highlight",
         "settings": {
-          "border_color": "#feb06a",
+          "border_color": "#ffcb32",
           "content_alignment": "middle",
-          "image": "",
-          "image_position": "back",
-          "heading": "Gift card",
-          "text": "Looking for something for someone special? A gift card to our store is the perfect idea!",
+          "image": "shopify:\/\/shop_images\/colorful-bunch-of-fresh-organic-eggs-in-burlap.jpg",
+          "image_position": "front",
+          "heading": "Our packaging",
+          "text": "We are always looking to provide great products and services to our clients with focus in our environment. We took a different approach on how we deliver our Premium Fresh Products.",
           "use_second_button": true,
-          "button_text": "View",
-          "button_link": ""
+          "button_text": "Learn More",
+          "button_link": "shopify:\/\/pages\/our-packaging"
         }
       },
       "1486665428106": {
         "type": "feature-row",
         "settings": {
-          "size": "large",
-          "background_color": "#fbf6f3",
+          "size": "small",
+          "background_color": "#f8ffca",
           "image": "shopify:\/\/shop_images\/a-park-sunset.jpg",
           "image_crop": "circle",
           "alignment": "center center",
           "title": "Family owned",
-          "text": "<p>Uncle Louise Farm is a&nbsp;family business&nbsp;which provides fresh products to Australian families in Victoria.<\/p>",
+          "text": "<p>Uncle Louis Farm is a&nbsp;family business&nbsp;which provides <em>Premium Fresh Products<\/em>&nbsp;from Australia.<\/p>\n<p>Our Biodynamics&nbsp;approach is a holistic, ecological, and ethical approach to farming, gardening, food, and nutrition.<\/p>\n<p>We are&nbsp;located&nbsp;at&nbsp;[<strong>location here<\/strong>] in&nbsp;Victoria, [<strong>distance here<\/strong>]Km from Melbourne.<\/p>",
           "use_second_button": false,
           "button_label": "About us",
           "button_link": "shopify:\/\/pages\/about-us",
           "desktop_layout": "left",
           "mobile_layout": "bottom"
-        }
-      },
-      "1486665657092": {
-        "type": "gallery",
-        "disabled": true,
-        "blocks": {
-          "1597637614313": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "icon": "checkmark",
-              "cta_label": "Talk about your brand",
-              "link": ""
-            }
-          },
-          "1597637623873": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "icon": "checkmark",
-              "cta_label": "Talk about your brand",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1597637614313",
-          "1597637623873"
-        ],
-        "settings": {
-          "section_height": "medium",
-          "show_overlay": false,
-          "overlay_color": "#000000",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": "0.3"
         }
       },
       "product-template": {
@@ -382,8 +345,8 @@
         "type": "rich-text",
         "settings": {
           "full_width": false,
-          "section_title": "Talk about your brand",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_title": "Giving back to the Community",
+          "text": "<p>Our&nbsp;commitment is to support our community and help people who need the most.<\/p>\n<p><\/p>\n<p>Each month we donate part of our&nbsp;profits to institutions that are making the different to people's live in Australia and overseas.<\/p>\n<p><\/p>\n<p>We are proudly helping people&nbsp;to have&nbsp;the support they need.<\/p>\n<p><\/p>\n<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Get in touch today<\/a><\/p>",
           "text_size": "medium"
         }
       },
@@ -393,8 +356,14 @@
           "heading": "Subscribe to our newsletter",
           "subheading": "<p>Promotions, new fresh products and sales. Directly to your inbox.<\/p>",
           "success_message": "Thanks for subscribing",
-          "text_color": "#36d6e7",
+          "text_color": "#2f7604",
           "background_color": "#ffffff"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": true
         }
       }
     },
@@ -403,7 +372,6 @@
       "1486665428106",
       "1486665151632",
       "feature-row",
-      "1486665657092",
       "1597820522359",
       "featured-slider",
       "1597820429073"
