@@ -33,7 +33,7 @@
 </style>
 
 <div class="newsletter-wrapper newsletter-wrapper--{{ section.id }} one-whole" data-section-id="{{ section.id }}" data-section-type="newsletter">
-  <div class="page-width">
+  <div class="page-width page-width--narrow">
     {% form 'customer' %}
       <h2 class="newsletter__heading">{{ section.settings.heading | escape }}</h2>
       {% unless section.settings.subheading == blank %}
