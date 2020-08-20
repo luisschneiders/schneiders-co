@@ -183,7 +183,7 @@
         "settings": {
           "border_color": "#ffcb32",
           "content_alignment": "middle",
-          "image": "shopify:\/\/shop_images\/colorful-bunch-of-fresh-organic-eggs-in-burlap.jpg",
+          "image": "shopify:\/\/shop_images\/packaging-highlights.jpg",
           "image_position": "front",
           "heading": "Our packaging",
           "text": "We are always looking to provide great products and services to our clients with focus in our environment. We took a different approach on how we deliver our Premium Fresh Products.",
@@ -364,6 +364,17 @@
         "type": "cart-template",
         "settings": {
           "cart_notes_enable": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "grid_style": "collage",
+          "products": "2",
+          "sort": "alphabetical",
+          "show_spacing": false,
+          "show_description": true
         }
       }
     },
