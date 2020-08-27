@@ -14,7 +14,7 @@
     "color_form_elements": "#fafafa",
     "color_cart_flag": "#b6d084",
     "type_base_size": "62.5%",
-    "type_header_font": "abril_fatface_n4",
+    "type_header_font": "playfair_display_n4",
     "type_base_font": "lato_n4",
     "show_cart_drawer": true,
     "show_cart_note": false,
@@ -29,8 +29,8 @@
     "social_tumblr_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "favicon": "",
-    "checkout_header_image": "shopify:\/\/shop_images\/basket-of-fresh-eggs.jpg",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
@@ -78,11 +78,11 @@
         "type": "header",
         "settings": {
           "icon": "cart",
-          "logo": "",
-          "logo_max_height": 15,
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_height": 60,
           "global": "globe",
           "global_link": "shopify:\/\/pages\/exports",
-          "enable_transparent": true,
+          "enable_transparent": false,
           "transparent_logo": "",
           "transparent_text_color": "#ffffff",
           "primary_navigation": "main-menu",
@@ -171,11 +171,11 @@
           "text_color": "#ffffff",
           "cover_image": "shopify:\/\/shop_images\/classic-breakfast.jpg",
           "cover_title": "Check out recipes recommendations",
-          "cover_title_desktop_position": "center",
+          "cover_title_desktop_position": "left",
           "show_overlay": true,
           "overlay_color": "#000000",
           "overlay_text": "#ffffff",
-          "overlay_opacity": "0.5"
+          "overlay_opacity": "0.6"
         }
       },
       "1486665151632": {
