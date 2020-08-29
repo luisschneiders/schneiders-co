@@ -328,18 +328,18 @@ $settings-color-cart-flag: {{ settings.color_cart_flag }};
 {% assign header_font = settings.type_header_font %}
 {% assign base_font = settings.type_base_font %}
 
-{{ header_font | font_face }}
-{{ base_font | font_face }}
+{{ header_font | font_face: font_display: 'swap' }}
+{{ base_font | font_face: font_display: 'swap' }}
 
 {%- assign base_font_semi_bold = base_font | font_modify: 'weight', '+200' -%}
 {%- assign base_font_bold = base_font | font_modify: 'weight', 'bolder' -%}
 {%- assign base_font_italic = base_font | font_modify: 'style', 'italic' -%}
 {%- assign base_font_bold_italic = base_font | font_modify: 'weight', 'bolder' | font_modify: 'style', 'italic' -%}
 
-{{ base_font_semi_bold | font_face }}
-{{ base_font_bold | font_face }}
-{{ base_font_italic | font_face }}
-{{ base_font_bold_italic | font_face }}
+{{ base_font_semi_bold | font_face: font_display: 'swap' }}
+{{ base_font_bold | font_face: font_display: 'swap' }}
+{{ base_font_italic | font_face: font_display: 'swap' }}
+{{ base_font_bold_italic | font_face: font_display: 'swap' }}
 
 
 $settings-font-stack-header-weight: {{ header_font.weight }};

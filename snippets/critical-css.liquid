@@ -28,8 +28,8 @@ we'll be able to generate these critical styles automatically.
   {%- assign header_font = settings.type_header_font -%}
   {%- assign base_font = settings.type_base_font -%}
 
-  {{ header_font | font_face }}
-  {{ base_font | font_face }}
+  {{ header_font | font_face: font_display: 'swap' }}
+  {{ base_font | font_face: font_display: 'swap' }}
 
   {%- assign base_font_bold = base_font | font_modify: 'weight', 'bolder' -%}
 
@@ -78,6 +78,7 @@ body {
   font-weight: {{ base_font.weight }};
   color: {{ settings.color_primary_body_text }};
   line-height: 1.625;
+  font-display: swap;
 }
 
 .page-width {
@@ -110,6 +111,7 @@ body {
   font-family: {{ header_font.family }}, {{ header_font.fallback_families }};
   font-style: {{ header_font.style }};
   font-weight: {{ header_font.weight }};
+  font-display: swap;
 }
 
 
