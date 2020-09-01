@@ -286,7 +286,8 @@
       "quantity": "Menge",
       "unit_price": "Einzelpreis",
       "view_in_space": "In deinem Bereich ansehen",
-      "view_in_space_label": "„Ansicht in deinem Raum“ lädt den Artikel im Augmented-Reality-Fenster"
+      "view_in_space_label": "„Ansicht in deinem Raum“ lädt den Artikel im Augmented-Reality-Fenster",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

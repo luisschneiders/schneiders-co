@@ -286,7 +286,8 @@
       "quantity": "Adet",
       "unit_price": "Birim fiyatı",
       "view_in_space": "Kendi alanınızda görüntüleyin",
-      "view_in_space_label": "Alanınızda görüntüleyin; ürün artırılmış gerçeklik penceresinde yüklenir"
+      "view_in_space_label": "Alanınızda görüntüleyin; ürün artırılmış gerçeklik penceresinde yüklenir",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

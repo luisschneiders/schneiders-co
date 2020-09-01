@@ -286,7 +286,8 @@
       "quantity": "Kvantitet",
       "unit_price": "Enhetspris",
       "view_in_space": "Visa i ditt utrymme",
-      "view_in_space_label": "Visa i ditt utrymme, laddar artiklar i fönster med förstärkt verklighet"
+      "view_in_space_label": "Visa i ditt utrymme, laddar artiklar i fönster med förstärkt verklighet",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

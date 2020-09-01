@@ -286,7 +286,8 @@
       "quantity": "個数",
       "unit_price": "単価",
       "view_in_space": "スペースに表示する",
-      "view_in_space_label": "スペースに表示し、拡張現実ウィンドウにアイテムを読み込む"
+      "view_in_space_label": "スペースに表示し、拡張現実ウィンドウにアイテムを読み込む",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

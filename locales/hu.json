@@ -286,7 +286,8 @@
       "unit_price": "Egységár",
       "view_in_space": "Megtekintés a saját környezetben",
       "view_in_space_label": "Megtekintés a saját környezetben: az elemet egy kiterjesztett valóság alapú ablakban tölti be",
-      "on_sale_from_html": "Legalacsonyabb akciós ár: {{ price }}"
+      "on_sale_from_html": "Legalacsonyabb akciós ár: {{ price }}",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

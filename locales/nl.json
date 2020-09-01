@@ -286,7 +286,8 @@
       "quantity": "Aantal",
       "unit_price": "Eenheidsprijs",
       "view_in_space": "Bekijk in je ruimte",
-      "view_in_space_label": "Bekijk in je ruimte, laadt artikel in augmented reality-venster"
+      "view_in_space_label": "Bekijk in je ruimte, laadt artikel in augmented reality-venster",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

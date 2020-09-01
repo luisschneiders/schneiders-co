@@ -288,7 +288,8 @@
       "quantity": "Cantitate",
       "unit_price": "Preț unitar",
       "view_in_space": "Vezi în spațiul tău",
-      "view_in_space_label": "Vezi în spațiul tău, încarcă elementul în fereastra de realitate augmentată"
+      "view_in_space_label": "Vezi în spațiul tău, încarcă elementul în fereastra de realitate augmentată",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

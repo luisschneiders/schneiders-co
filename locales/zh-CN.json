@@ -286,7 +286,8 @@
       "quantity": "数量",
       "unit_price": "单价",
       "view_in_space": "在您的空间中查看",
-      "view_in_space_label": "在您的空间中查看，在增强现实窗口中加载产品"
+      "view_in_space_label": "在您的空间中查看，在增强现实窗口中加载产品",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

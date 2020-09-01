@@ -286,7 +286,8 @@
       "quantity": "Kuantiti",
       "unit_price": "Harga seunit",
       "view_in_space": "Lihat di dalam ruang anda",
-      "view_in_space_label": "Lihat di ruang anda, memuatkan item di dalam tetingkap realiti terimbuh"
+      "view_in_space_label": "Lihat di ruang anda, memuatkan item di dalam tetingkap realiti terimbuh",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

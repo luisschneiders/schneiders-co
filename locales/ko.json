@@ -286,7 +286,8 @@
       "quantity": "수량",
       "unit_price": "단가",
       "view_in_space": "사용자 공간에서 보기",
-      "view_in_space_label": "사용자 공간에서 보기, 증강 현실 창에서 항목 로드하기"
+      "view_in_space_label": "사용자 공간에서 보기, 증강 현실 창에서 항목 로드하기",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

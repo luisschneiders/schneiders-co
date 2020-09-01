@@ -290,7 +290,8 @@
       "quantity": "Kiekis",
       "unit_price": "Vieneto kaina",
       "view_in_space": "Peržiūra savo erdvėje",
-      "view_in_space_label": "Funkcija „Peržiūra savo erdvėje“ elementą įkelia į išplėstinės realybės langą"
+      "view_in_space_label": "Funkcija „Peržiūra savo erdvėje“ elementą įkelia į išplėstinės realybės langą",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

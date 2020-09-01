@@ -286,7 +286,8 @@
       "quantity": "Quantité",
       "unit_price": "Prix unitaire",
       "view_in_space": "Afficher dans votre espace",
-      "view_in_space_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée"
+      "view_in_space_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

@@ -286,7 +286,8 @@
       "quantity": "Antal",
       "unit_price": "Stykpris",
       "view_in_space": "Se den i dit område",
-      "view_in_space_label": "Se den i dine omgivelser – indlæser vare i et augmented reality-vindue"
+      "view_in_space_label": "Se den i dine omgivelser – indlæser vare i et augmented reality-vindue",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

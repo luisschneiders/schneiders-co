@@ -286,7 +286,8 @@
       "quantity": "Määrä",
       "unit_price": "Yksikköhinta",
       "view_in_space": "Näytä omassa tilassasi",
-      "view_in_space_label": "Näkymä omassa tilassasi, lataa kohteen lisätyn todellisuuden ikkunaan"
+      "view_in_space_label": "Näkymä omassa tilassasi, lataa kohteen lisätyn todellisuuden ikkunaan",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

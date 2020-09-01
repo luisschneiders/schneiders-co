@@ -290,7 +290,8 @@
       "quantity": "Množství",
       "unit_price": "Jednotková cena",
       "view_in_space": "Zobrazit ve vašem prostoru",
-      "view_in_space_label": "Zobrazení ve vašem prostoru: Načte položku v okně rozšířené reality"
+      "view_in_space_label": "Zobrazení ve vašem prostoru: Načte položku v okně rozšířené reality",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

@@ -286,7 +286,8 @@
       "quantity": "Quantidade",
       "unit_price": "Preço unitário",
       "view_in_space": "Ver no seu espaço",
-      "view_in_space_label": "Ver no seu espaço, carrega item na janela de realidade aumentada"
+      "view_in_space_label": "Ver no seu espaço, carrega item na janela de realidade aumentada",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

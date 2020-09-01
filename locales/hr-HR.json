@@ -288,7 +288,8 @@
       "quantity": "Količina",
       "unit_price": "Jedinična cijena",
       "view_in_space": "Pogledajte u svojem prostoru",
-      "view_in_space_label": "Pogledajte u svojem prostoru, učitajte stavku u prozoru proširene stvarnosti"
+      "view_in_space_label": "Pogledajte u svojem prostoru, učitajte stavku u prozoru proširene stvarnosti",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

@@ -290,7 +290,8 @@
       "quantity": "Ilość",
       "unit_price": "Cena jednostkowa",
       "view_in_space": "Zobacz w swojej przestrzeni",
-      "view_in_space_label": "Widok w Twojej przestrzeni, wczytuje przedmiot do okna rzeczywistości rozszerzonej"
+      "view_in_space_label": "Widok w Twojej przestrzeni, wczytuje przedmiot do okna rzeczywistości rozszerzonej",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {

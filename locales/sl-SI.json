@@ -290,7 +290,8 @@
       "quantity": "Količina",
       "unit_price": "Cena na enoto",
       "view_in_space": "Prikaži v prostoru",
-      "view_in_space_label": "Prikaz v prostoru naloži element v okno z razširjeno resničnostjo"
+      "view_in_space_label": "Prikaz v prostoru naloži element v okno z razširjeno resničnostjo",
+      "where_to_buy": "Where to buy"
     }
   },
   "sections": {
