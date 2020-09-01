@@ -31,7 +31,7 @@
     "social_vimeo_link": "",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -44,6 +44,7 @@
     "checkout_accent_color": "#2f7604",
     "checkout_button_color": "#3a5673",
     "checkout_error_color": "#ff6d6d",
+    "show_cart_icon": true,
     "transparent_logo": "",
     "logo_max_height": 15,
     "sections": {
@@ -77,6 +78,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "show_cart_icon": false,
           "icon": "cart",
           "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_max_height": 60,
@@ -212,6 +214,7 @@
       "product-template": {
         "type": "product-template",
         "settings": {
+          "show_add_to_cart": false,
           "show_quantity_selector": false,
           "show_variant_labels": false,
           "show_vendor": true,
