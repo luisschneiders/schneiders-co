@@ -46,18 +46,19 @@
       <input class="product-form__quantity-input" type="number" id="Quantity-{{ section.id }}" name="quantity" value="1" min="1" pattern="[0-9]*">
     </div>
   {% endif %}
-
-  <button class="btn btn--to-secondary btn--full product__add-to-cart-button{% if section.settings.enable_payment_button and current_variant.available %} shopify-payment-btn btn--secondary{% endif %}"
-    data-cart-submit
-    type="submit" name="add"
-    {% unless current_variant.available %} disabled="true"{% endunless %}
-    aria-label="{{ button_text }}"
-  >
-    <span class="primary-text" aria-hidden="false" data-cart-primary-submit-text>
-      {{ button_text }}
-    </span>
-    <span class="secondary-text" aria-hidden=true data-cart-secondary-submit-text>{{ 'products.product.view_cart' | t }}</span>
-  </button>
+  {% if section.settings.show_add_to_cart %}
+    <button class="btn btn--to-secondary btn--full product__add-to-cart-button{% if section.settings.enable_payment_button and current_variant.available %} shopify-payment-btn btn--secondary{% endif %}"
+      data-cart-submit
+      type="submit" name="add"
+      {% unless current_variant.available %} disabled="true"{% endunless %}
+      aria-label="{{ button_text }}"
+    >
+      <span class="primary-text" aria-hidden="false" data-cart-primary-submit-text>
+        {{ button_text }}
+      </span>
+      <span class="secondary-text" aria-hidden=true data-cart-secondary-submit-text>{{ 'products.product.view_cart' | t }}</span>
+    </button>
+  {% endif %}
   <p class="product__notification text-small text-center" data-cart-notification></p>
   {% if section.settings.enable_payment_button and current_variant.available %}
     {{ form | payment_button }}
