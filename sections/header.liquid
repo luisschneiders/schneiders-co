@@ -225,7 +225,7 @@
           </a>
         </div>
       {% endif %}
-      {% if settings.show_cart_icon != blank %}
+      {% if section.settings.show_cart_icon != blank %}
         <div class="site-header__section site-header__section--button">
           <a href="{{ routes.cart_url }}" class="btn btn--clear btn--square btn--hover-scale site-header__cart ajax-cart__toggle" aria-expanded="false">
             {%- assign icon = 'icon-header-' | append: section.settings.icon %}
@@ -262,6 +262,31 @@
     "zh-TW": "標頭"
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_cart_icon",
+      "label": {
+        "da": "Vis indkøbskurvskuffe",
+        "de": "Warenkorbeinschub anzeigen",
+        "en": "Show shopping cart icon",
+        "es": "Mostrar carrito lateral",
+        "fi": "Näytä veto-ostoskori",
+        "fr": "Afficher le tiroir du panier",
+        "hi": "कार्ट ड्रावर दिखाएं",
+        "it": "Mostra finestra carrello",
+        "ja": "カートドロワーを表示する",
+        "ko": "카트 서랍 표시",
+        "nb": "Vis handlekurvskuff",
+        "nl": "Winkelwagenoptie weergegeven",
+        "pt-BR": "Apresentar painel deslizante do carrinho",
+        "pt-PT": "Mostrar painel deslizante do carrinho",
+        "sv": "Visa varukorgslåda",
+        "th": "แสดงลิ้นชักตะกร้าสินค้า",
+        "zh-CN": "显示购物车抽屉",
+        "zh-TW": "顯示購物車導覽匣"
+      },
+      "default": true
+    },
     {
       "type": "select",
       "id": "icon",
