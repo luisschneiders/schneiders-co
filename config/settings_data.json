@@ -93,8 +93,8 @@
           "announcement_text": "Announce something here",
           "announcement_link": "",
           "announcement_icon": "checkmark",
-          "announcement_color_bg": "#aaf1f5",
-          "announcement_color_text": "#fff"
+          "announcement_color_bg": "#b6d084",
+          "announcement_color_text": "#2f7604"
         }
       },
       "footer": {
@@ -212,13 +212,13 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "show_quantity_selector": true,
-          "show_variant_labels": true,
-          "show_vendor": false,
-          "enable_payment_button": true,
+          "show_quantity_selector": false,
+          "show_variant_labels": false,
+          "show_vendor": true,
+          "enable_payment_button": false,
           "show_share_buttons": false,
           "enable_video_looping": false,
-          "hide_variant_media": true
+          "hide_variant_media": false
         }
       },
       "collection-template": {
