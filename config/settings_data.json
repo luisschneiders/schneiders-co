@@ -221,7 +221,8 @@
           "enable_payment_button": false,
           "show_share_buttons": false,
           "enable_video_looping": false,
-          "hide_variant_media": false
+          "hide_variant_media": true,
+          "where_to_buy": "shopify:\/\/pages\/where-to-buy"
         }
       },
       "collection-template": {
