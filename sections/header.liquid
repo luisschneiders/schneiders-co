@@ -225,14 +225,16 @@
           </a>
         </div>
       {% endif %}
-      <div class="site-header__section site-header__section--button">
-        <a href="{{ routes.cart_url }}" class="btn btn--clear btn--square btn--hover-scale site-header__cart ajax-cart__toggle" aria-expanded="false">
-          {%- assign icon = 'icon-header-' | append: section.settings.icon %}
-          {% include icon %}
-          <span class="icon__fallback-text">{{ 'general.header.view_cart' | t }}</span>
-          <span class="site-header__cart-bubble{% if cart.item_count > 0 %} site-header__cart-bubble--visible{% endif %}"></span>
-        </a>
-      </div>
+      {% if settings.show_cart_icon != blank %}
+        <div class="site-header__section site-header__section--button">
+          <a href="{{ routes.cart_url }}" class="btn btn--clear btn--square btn--hover-scale site-header__cart ajax-cart__toggle" aria-expanded="false">
+            {%- assign icon = 'icon-header-' | append: section.settings.icon %}
+            {% include icon %}
+            <span class="icon__fallback-text">{{ 'general.header.view_cart' | t }}</span>
+            <span class="site-header__cart-bubble{% if cart.item_count > 0 %} site-header__cart-bubble--visible{% endif %}"></span>
+          </a>
+        </div>
+      {% endif %}
     </div>
   </header>
 </div>
