@@ -59,14 +59,14 @@
       <span class="secondary-text" aria-hidden=true data-cart-secondary-submit-text>{{ 'products.product.view_cart' | t }}</span>
     </button>
   {% endif %}
-  {% if section.settings.where_to_buy != blank %}
-    <a class="btn btn--to-secondary btn--full product__add-to-cart-button" href="{{ section.settings.where_to_buy }}">
-      <span>{{ 'sections.featured_product.full_details' | t }}</span>
-      {% comment %} <span>{{ 'sections.featured_product.where_to_buy' | t }}</span> {% endcomment %}
-    </a>
-  {% endif %}
   <p class="product__notification text-small text-center" data-cart-notification></p>
   {% if section.settings.enable_payment_button and current_variant.available %}
     {{ form | payment_button }}
   {% endif %}
+  {% if section.settings.where_to_buy != blank %}
+    <a class="btn btn--to-secondary btn--full product__where-to-buy-button" href="{{ section.settings.where_to_buy }}">
+      <span>{{ 'products.product.where_to_buy' | t }}</span>
+    </a>
+  {% endif %}
+
 {% endform %}
