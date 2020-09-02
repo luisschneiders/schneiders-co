@@ -4120,6 +4120,12 @@ html {
   }
 }
 
+.flex-footer__item--full {
+  @include media-query($medium-up) {
+    flex: 0 0 100%;
+  }
+}
+
 .flex-footer__item--newsletter {
   margin: 0 auto $gutter;
   max-width: 450px;
@@ -5084,6 +5090,10 @@ $image-bar-placeholder-border-color: rgba($color-body-text, 0.25);
   @include media-query($small) {
     display: flex;
   }
+}
+
+.site-footer__camouflage {
+  color: transparent;
 }
 
 .newsletter-wrapper {
